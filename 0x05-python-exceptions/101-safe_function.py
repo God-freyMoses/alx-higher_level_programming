@@ -18,4 +18,4 @@ def safe_function(fct, *args):
         return (f)
     except Exception as err:
         print("Exception: {}".format(err), file=stderr)
-        return None
+        return (None)
